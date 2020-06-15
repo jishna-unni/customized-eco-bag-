@@ -1,0 +1,370 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.4
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Mar 22, 2020 at 04:45 PM
+-- Server version: 10.1.29-MariaDB
+-- PHP Version: 7.2.0
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `aktechindia`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ak_admin`
+--
+
+CREATE TABLE `ak_admin` (
+  `admin_id` int(11) NOT NULL,
+  `admin_username` varchar(200) DEFAULT NULL,
+  `admin_password` varchar(200) DEFAULT NULL,
+  `status` enum('0','1') NOT NULL DEFAULT '1' COMMENT '0->Inactive, 1->Active',
+  `display_name` varchar(250) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `ak_admin`
+--
+
+INSERT INTO `ak_admin` (`admin_id`, `admin_username`, `admin_password`, `status`, `display_name`) VALUES
+(2, 'admin', '202cb962ac59075b964b07152d234b70', '1', 'Aktech Admin');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ak_products`
+--
+
+CREATE TABLE `ak_products` (
+  `item_id` int(100) NOT NULL,
+  `item_parent` bigint(20) DEFAULT NULL,
+  `item_category` int(11) DEFAULT NULL,
+  `item_name` varchar(200) CHARACTER SET utf8 DEFAULT NULL,
+  `item_slug` varchar(500) DEFAULT NULL,
+  `item_tags` text CHARACTER SET utf8,
+  `item_desc` text CHARACTER SET utf8,
+  `meta_desc` varchar(500) DEFAULT NULL,
+  `item_unit` varchar(50) DEFAULT NULL,
+  `item_price` double DEFAULT NULL,
+  `item_mrp` double DEFAULT NULL,
+  `item_qty` int(11) DEFAULT NULL,
+  `delivery_charge` double DEFAULT NULL,
+  `item_keyword_id` varchar(500) DEFAULT NULL,
+  `item_img` text,
+  `item_primary_img` varchar(300) DEFAULT NULL,
+  `item_video` varchar(500) DEFAULT NULL,
+  `item_pdf` varchar(300) DEFAULT NULL,
+  `item_doc` varchar(300) DEFAULT NULL,
+  `item_date` datetime DEFAULT NULL,
+  `item_popularity` bigint(20) DEFAULT NULL,
+  `created_by` int(11) DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL,
+  `updated_by` int(11) DEFAULT NULL,
+  `is_model` enum('0','1') NOT NULL DEFAULT '0' COMMENT '0->Not model,1->Model',
+  `item_status` enum('0','1') NOT NULL DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ak_product_categories`
+--
+
+CREATE TABLE `ak_product_categories` (
+  `category_id` int(11) NOT NULL,
+  `category_name` varchar(255) DEFAULT NULL,
+  `category_slug` varchar(500) DEFAULT NULL,
+  `category_parent` int(11) DEFAULT NULL,
+  `banner_image` varchar(400) DEFAULT NULL,
+  `priority` int(5) DEFAULT NULL,
+  `category_desc` varchar(500) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `ak_product_categories`
+--
+
+INSERT INTO `ak_product_categories` (`category_id`, `category_name`, `category_slug`, `category_parent`, `banner_image`, `priority`, `category_desc`) VALUES
+(1, 'Surgical Cap', 'surgical-cap', 1, '[\"http:\\/\\/localhost\\/sonu_comdudes\\/aktech_product\\/uploads\\/productsthumb\\/sugicalcap3.jpg\"]', 1, 'asdsadsasd');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ak_product_enquiries`
+--
+
+CREATE TABLE `ak_product_enquiries` (
+  `enquiry_id` bigint(20) NOT NULL,
+  `product_id` bigint(20) DEFAULT NULL,
+  `enquiry_message` text,
+  `enquiry_from` varchar(255) DEFAULT NULL,
+  `phone` varchar(20) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `enquiry_date` datetime DEFAULT NULL,
+  `enquiry_status` enum('0','1') NOT NULL DEFAULT '1'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ak_product_features`
+--
+
+CREATE TABLE `ak_product_features` (
+  `feature_id` bigint(20) NOT NULL,
+  `feature` text,
+  `product_id` bigint(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ak_product_gallery`
+--
+
+CREATE TABLE `ak_product_gallery` (
+  `gallery_id` bigint(20) NOT NULL,
+  `gallery_image` varchar(500) DEFAULT NULL,
+  `gallery_image_name` varchar(250) DEFAULT NULL,
+  `product_id` bigint(20) DEFAULT NULL,
+  `gallery_category` int(5) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ak_product_gallery_categories`
+--
+
+CREATE TABLE `ak_product_gallery_categories` (
+  `gallery_category_id` int(5) NOT NULL,
+  `gallery_category_name` varchar(250) DEFAULT NULL,
+  `gallery_category_class` varchar(200) DEFAULT NULL,
+  `product_id` bigint(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ak_product_specifications`
+--
+
+CREATE TABLE `ak_product_specifications` (
+  `spec_id` bigint(20) NOT NULL,
+  `product_id` bigint(20) DEFAULT NULL,
+  `production_speed` varchar(255) DEFAULT NULL,
+  `bag_width` varchar(255) DEFAULT NULL,
+  `bag_height` varchar(255) DEFAULT NULL,
+  `bag_length` varchar(255) DEFAULT NULL,
+  `carrying_handle_length` varchar(255) DEFAULT NULL,
+  `loop_handle_length` varchar(255) DEFAULT NULL,
+  `trophy_range` varchar(255) DEFAULT NULL,
+  `loop_handle_thickness` varchar(255) DEFAULT NULL,
+  `bag_weight_range` varchar(255) DEFAULT NULL,
+  `bag_making_thickness` varchar(255) DEFAULT NULL,
+  `power_supply` varchar(255) DEFAULT NULL,
+  `total_power` varchar(255) DEFAULT NULL,
+  `dimensions` varchar(255) DEFAULT NULL,
+  `overall_dimension` varchar(255) DEFAULT NULL,
+  `weight` varchar(255) DEFAULT NULL,
+  `material_unwinding_width` varchar(255) DEFAULT NULL,
+  `bag_gusset_width` varchar(255) DEFAULT NULL,
+  `bag_handle_length` varchar(255) DEFAULT NULL,
+  `air_pressure` varchar(255) DEFAULT NULL,
+  `air_flow` varchar(255) DEFAULT NULL,
+  `bag_material_basis_weight` varchar(255) DEFAULT NULL,
+  `slide_mounting_speed` varchar(255) DEFAULT NULL,
+  `handle_material_basis_weight` varchar(255) DEFAULT NULL,
+  `max_diameter_of_material_roll` varchar(200) DEFAULT NULL,
+  `max_printing_size` varchar(200) DEFAULT NULL,
+  `material_basis_weight` varchar(200) DEFAULT NULL,
+  `printing_speed` varchar(200) DEFAULT NULL,
+  `slitting_width` varchar(200) DEFAULT NULL,
+  `max_diameter_of_unwinding` varchar(200) DEFAULT NULL,
+  `max_diameter_of_rewinding` varchar(200) DEFAULT NULL,
+  `cutting_width` varchar(200) DEFAULT NULL,
+  `cutting_length` varchar(200) DEFAULT NULL,
+  `handle_material_thickness` varchar(200) DEFAULT NULL,
+  `max_printing_weight` varchar(200) DEFAULT NULL,
+  `printing_length` varchar(200) DEFAULT NULL,
+  `plate_thickness` varchar(200) DEFAULT NULL,
+  `motor_power` varchar(200) DEFAULT NULL,
+  `max_printing_area` varchar(200) DEFAULT NULL,
+  `max_material_feeding` varchar(200) DEFAULT NULL,
+  `thickness_material_basic_weight` varchar(200) DEFAULT NULL,
+  `sewing_width` varchar(200) DEFAULT NULL,
+  `sewing_length` varchar(200) DEFAULT NULL,
+  `sewing_thickness` varchar(200) DEFAULT NULL,
+  `sewing_speed` varchar(200) DEFAULT NULL,
+  `overall_size` varchar(200) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ak_product_specifications_main`
+--
+
+CREATE TABLE `ak_product_specifications_main` (
+  `spec_id` bigint(20) NOT NULL,
+  `specifications` text,
+  `product_id` bigint(20) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ak_product_tags`
+--
+
+CREATE TABLE `ak_product_tags` (
+  `tag_id` int(11) NOT NULL,
+  `tag_name` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `ak_admin`
+--
+ALTER TABLE `ak_admin`
+  ADD PRIMARY KEY (`admin_id`);
+
+--
+-- Indexes for table `ak_products`
+--
+ALTER TABLE `ak_products`
+  ADD PRIMARY KEY (`item_id`);
+
+--
+-- Indexes for table `ak_product_categories`
+--
+ALTER TABLE `ak_product_categories`
+  ADD PRIMARY KEY (`category_id`);
+
+--
+-- Indexes for table `ak_product_enquiries`
+--
+ALTER TABLE `ak_product_enquiries`
+  ADD PRIMARY KEY (`enquiry_id`);
+
+--
+-- Indexes for table `ak_product_features`
+--
+ALTER TABLE `ak_product_features`
+  ADD PRIMARY KEY (`feature_id`);
+
+--
+-- Indexes for table `ak_product_gallery`
+--
+ALTER TABLE `ak_product_gallery`
+  ADD PRIMARY KEY (`gallery_id`);
+
+--
+-- Indexes for table `ak_product_gallery_categories`
+--
+ALTER TABLE `ak_product_gallery_categories`
+  ADD PRIMARY KEY (`gallery_category_id`);
+
+--
+-- Indexes for table `ak_product_specifications`
+--
+ALTER TABLE `ak_product_specifications`
+  ADD PRIMARY KEY (`spec_id`);
+
+--
+-- Indexes for table `ak_product_specifications_main`
+--
+ALTER TABLE `ak_product_specifications_main`
+  ADD PRIMARY KEY (`spec_id`);
+
+--
+-- Indexes for table `ak_product_tags`
+--
+ALTER TABLE `ak_product_tags`
+  ADD PRIMARY KEY (`tag_id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `ak_admin`
+--
+ALTER TABLE `ak_admin`
+  MODIFY `admin_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `ak_products`
+--
+ALTER TABLE `ak_products`
+  MODIFY `item_id` int(100) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `ak_product_categories`
+--
+ALTER TABLE `ak_product_categories`
+  MODIFY `category_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `ak_product_enquiries`
+--
+ALTER TABLE `ak_product_enquiries`
+  MODIFY `enquiry_id` bigint(20) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `ak_product_features`
+--
+ALTER TABLE `ak_product_features`
+  MODIFY `feature_id` bigint(20) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `ak_product_gallery`
+--
+ALTER TABLE `ak_product_gallery`
+  MODIFY `gallery_id` bigint(20) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `ak_product_gallery_categories`
+--
+ALTER TABLE `ak_product_gallery_categories`
+  MODIFY `gallery_category_id` int(5) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `ak_product_specifications`
+--
+ALTER TABLE `ak_product_specifications`
+  MODIFY `spec_id` bigint(20) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `ak_product_specifications_main`
+--
+ALTER TABLE `ak_product_specifications_main`
+  MODIFY `spec_id` bigint(20) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `ak_product_tags`
+--
+ALTER TABLE `ak_product_tags`
+  MODIFY `tag_id` int(11) NOT NULL AUTO_INCREMENT;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
