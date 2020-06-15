@@ -1,0 +1,1686 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- For IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- master stylesheet -->
+              <meta name="description" content="Wanted to buy materials for packaging! Come, lets get into the site and purchase with high quality and quantity in reasonable prize.">
+          <meta name="keywords" content="Non-woven bags-Buy online,Non-Woven Bags | Custom Printed Non-Woven Bags Online ,Non Woven Bags - Buy Non-Woven Bags Online,Buy Non woven Bags Online From Manufacturer,Non-Woven Carry Bags Online at cheapest price in India,Non Woven Carry Bag - Manufacturers & Suppliers of Non Woven carry bags,Non Woven Bag,Non Woven Carry Bags - Non Woven Bags Importer,PP Non Woven Fabric | Manufacturer Supplier Exporter,Non-woven carry bags; Shopping bags; Reusable bags; Grocery bags; Eco-friendly carry bags,N">
+    
+    <link rel="stylesheet" href="https://aktechindia.com/assets/css/style.css">
+    <!-- Responsive stylesheet -->
+    <link rel="stylesheet" href="https://aktechindia.com/assets/css/responsive.css">
+    <!-- Favicon -->
+    <!--  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png"> -->
+    <link rel="icon" type="image/png" href="https://aktechindia.com/assets/images/favicon/favicon-32x32.png" sizes="32x32">
+    <!--  <link rel="icon" type="image/png" href="images/favicon/favicon-16x16.png" sizes="16x16"> -->
+    <!-- Mega Menu Style, you kinda really need Bootstrap in order for this to work -->
+    <link href="https://aktechindia.com/assets/css/mega-menu.css" rel="stylesheet">
+
+    <!-- Mega Menu w/Responsive, unload this if you don't want it to be responsive (which kinda defeats the purpose) -->
+    <link href="https://aktechindia.com/assets/css/mega-menu-responsive.css" rel="stylesheet">
+
+        <link rel="stylesheet" type="text/css" media="all" href="https://aktechindia.com/assets/css/webslidemenu.css" />
+        <link rel="stylesheet" type="text/css" href="https://aktechindia.com/assets/css/slick.css" />
+        <link rel="stylesheet" type="text/css" href="https://aktechindia.com/assets/css/slick-theme.css" />
+    <script>
+        var base_url = "https://aktechindia.com/";
+    </script>
+    <!-- Dynamically added css -->
+        <!-- Fixing Internet Explorer-->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->  
+    <!-- main jQuery -->
+    <script src="https://aktechindia.com/assets/js/jquery.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<style>
+    .popover .popover-content{
+        color: black;
+    }
+    iframe[name='google_conversion_frame'] {
+font-size: 0 !important;
+height: 0 !important;
+line-height: 0 !important;
+margin-top: -13px;
+width: 0 !important;
+}
+iframe.iifr{
+    display: none!important;
+}
+            .edit-how-much .slider.slider-horizontal {
+                width: 77%;
+                margin-left: 3%;
+            }
+            .banner-div{
+                display : none;
+            }
+            .innerbannerslidewrap .left-arrow{
+               display: inline-block;
+               color: white;
+               position: absolute;
+               top: 39%;
+               z-index: 9;
+                   opacity: 0;
+               transition: .3s;
+               padding-left: 2%;
+                       }
+                       .innerbannerslidewrap .right-arrow{
+               display: inline-block;
+               right: 0%;
+               top: 40%;
+               opacity: 0;
+               transition: .3s;
+               position: absolute;
+               color: white;
+               padding-right: 2%;
+           }
+           .innerbannerslidewrap:hover .left-arrow, .innerbannerslidewrap:hover .right-arrow{
+               opacity:1;
+           }
+            .slider-handle {
+                background-color: #83c140!important;
+                background-image: -webkit-linear-gradient(top, #83c140 0%, #6eab2d 100%)!important;
+                background-image: -o-linear-gradient(top, #337ab7 0%, #2e6da4 100%)!important;
+                background-image: linear-gradient(to bottom, #83c140 0%, #63a020 100%)!important;
+            }
+
+            .slider-minus, .slider-plus{
+                color: #000!important;
+                opacity: .5;
+                transition: .3s;
+            }
+            .slider-minus:hover, .slider-plus:hover{
+                opacity: 1;
+            }
+</style>
+</head>
+<body>
+
+<!--Start Preloader -->
+<!-- <div class="preloader">
+    
+<div class="cube-wrapper">
+  <div class="cube-folding">
+    <span class="leaf1"></span>
+    <span class="leaf2"></span>
+    <span class="leaf3"></span>
+    <span class="leaf4"></span>
+  </div>
+  <span class="loading" data-name="Loading">Loading</span>
+</div>
+</div> -->
+<!--End Preloader -->  
+
+<!--Start Top bar area -->  
+<section class="top-bar-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="welcome pull-left">
+                    <p>South India's Largest Suppliers of Non Woven Fabrics and Importer of Bag Making Machines.</p>
+                </div>
+                <div class="top-menu pull-right">
+                    <ul>
+                                <li><a href="https://aktechindia.com/contact/">Get Support</a></li>
+                                <li><a href="https://aktechindia.com/career/">Job & Career</a></li>
+                                <li>
+                                    <a href="https://aktechindia.com/shopping/cart">
+                                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                        Cart <span id="cart-count">(0)</span>
+                                    </a>
+                                </li>
+                    </ul>
+                    <!--<div class="consultation-button">-->
+                        <!--<a href="https://aktechindia.com/coming/"><span class="flaticon-multimedia"></span> Free Consultation</a>-->
+                    <!--</div>-->
+                </div>     
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Top bar area --> 
+ 
+<!--Start header area-->
+<!--<header class="header-area stricky">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="logo pull-left">
+                    <a href="https://aktechindia.com/">
+                        <img src="https://aktechindia.com/assets/images/resources/logo_black.png" alt="Aktech Logo">
+                    </a>
+                </div>
+                <div class="header-right clearfix pull-right">
+                    <nav class="main-menu mega-wide pull-left">
+                        <div class="navbar-header">     
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="navbar-collapse collapse clearfix">
+                            <ul class="navigation clearfix">
+                                <li  ><a href="https://aktechindia.com/">Home</a></li>
+                                <li class="dropdown" ><a href="https://aktechindia.com/about/">About Us</a>
+                                   
+                                </li>
+                                <li class="mega-wide-full transition ">
+                                    <a class="dropdown dropdown-toggle" data-toggle="dropdown" >Products<b class="caret"></b></a>
+                                    <div class="dropdown-menu custmdrop-wid">
+                                        <ul class="sub-menu-drop">
+                                                                                        <li class="col-md-2">
+                                                <ul>
+                                                    <li class="nav-title">Non Woven Machines</li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/bag-making-machines-manual">Bag Making Machines (Manual)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/bag-making-machines-semi-automatic">Bag Making Machines ( Semi-Automatic)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/bag-making-machines-fully-automatic">Bag Making Machines (Fully Automatic)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/screen-printing-machine-series">Screen Printing Machine Series</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/offset-printing-machine-series">Offset Printing Machine Series</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/roll-to-roll-printing-machine-series">Roll to Roll Printing Machine Series</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/bag-to-bag-printing-machines">Bag to Bag Printing Machines</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/roll-slitting-machine-series">Roll Slitting Machine Series</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/sealing-machines-manual">Sealing Machines (Manual)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/sealing-machines-automatic">Sealing Machines (Automatic)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/cross-cutting-machines-manual">Cross Cutting Machines (Manual)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/cross-cutting-machines-automatic">Cross Cutting Machines (Automatic)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/coating-and-laminating-machines">Coating And Laminating Machines</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/non-woven-machines/other-machines-spares">Other Machines & Spares</a></li>
+                                                                                                    </ul>
+                                            </li>
+                                                                                        <li class="col-md-2">
+                                                <ul>
+                                                    <li class="nav-title">Surgical Mask And Head Cap</li>
+                                                                                                        <li><a href="https://aktechindia.com/products/surgical-mask-and-head-cap/surgical-mask">Surgical Mask</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/surgical-mask-and-head-cap/surgical-cap">Surgical Cap</a></li>
+                                                                                                    </ul>
+                                            </li>
+                                                                                        <li class="col-md-2">
+                                                <ul>
+                                                    <li class="nav-title">Fabrics</li>
+                                                                                                        <li><a href="https://aktechindia.com/products/fabrics/100-virgin-non-woven-fabric">100% Virgin Non Woven Fabric</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/fabrics/premium-non-woven-for-big-shopper-only">Premium Non Woven (For big shopper only)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/fabrics/cotton-all-gsm">Cotton (All GSM)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/fabrics/jute-fabric-any-gsm">Jute Fabric (Any GSM)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/fabrics/polyster-all-gsm">Polyster (All GSM)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/fabrics/organic-cotton">Organic Cotton</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/fabrics/silk">Silk</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/fabrics/nylon-fabric">Nylon Fabric</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/fabrics/velvet">Velvet</a></li>
+                                                                                                    </ul>
+                                            </li>
+                                                                                        <li class="col-md-2">
+                                                <ul>
+                                                    <li class="nav-title">Sewing Machines</li>
+                                                                                                        <li><a href="https://aktechindia.com/products/sewing-machines/mini-sewing-machines">Mini Sewing Machines</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/sewing-machines/composite-sewing-machines">Composite Sewing Machines</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/sewing-machines/electric-sewing-machines">Electric Sewing Machines</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/sewing-machines/non-electric-sewing-machines">Non Electric Sewing Machines</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/sewing-machines/portable-sewing-machines">Portable Sewing Machines</a></li>
+                                                                                                    </ul>
+                                            </li>
+                                                                                        <li class="col-md-2">
+                                                <ul>
+                                                    <li class="nav-title">Oil Extractors and Expellers</li>
+                                                                                                        <li><a href="https://aktechindia.com/products/oil-extractors-and-expellers/oil-pressing-machines">Oil Pressing Machines</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/oil-extractors-and-expellers/oil-extractor-machines">Oil Extractor Machines</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/oil-extractors-and-expellers/digital-extractor-machines">Digital Extractor Machines</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/oil-extractors-and-expellers/home-oil-extractors">Home Oil Extractors</a></li>
+                                                                                                    </ul>
+                                            </li>
+                                                                                        <li class="col-md-2">
+                                                <ul>
+                                                    <li class="nav-title">Carry Bags</li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/non-woven-shopping-bag">Non woven Shopping Bag</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/promotion-bags-non-woven">Promotion Bags (Non Woven)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/w-cut-shopping-bags-non-woven">W Cut Shopping Bags (Non woven)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/d-cut-shopping-bag-non-woven">D Cut Shopping Bag (Non Woven)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/u-cut-shopping-bag-non-woven">U Cut Shopping Bag (Non Woven)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/jute-big-shoppers">Jute Big Shoppers</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/box-type-bag-non-woven">Box Type Bag (Non Woven)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/canvas-bag">Canvas Bag</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/elagant-promotion-bags-cotton-non-woven">Elagant Promotion Bags (Cotton/ Non Woven)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/cotton-shopping-bags">Cotton Shopping Bags</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/laundry-bags">Laundry Bags</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/paper-carry-bags-loop-handle-plain">Paper Carry Bags (Loop handle/Plain)</a></li>
+                                                                                                        <li><a href="https://aktechindia.com/products/carry-bags/polyester-carry-bag">Polyester Carry Bag</a></li>
+                                                                                                    </ul>
+                                            </li>
+                                                                                        <li class="col-md-2">
+                                                <ul>
+                                                    <li class="nav-title">Oil & Seeds</li>
+                                                                                                    </ul>
+                                            </li>
+                                                                                    </ul>
+                                    </div>                      
+                                </li>   
+                                <li  ><a href="https://aktechindia.com/projects/">Projects</a></li>
+                                <li  ><a href="https://aktechindia.com/news/">News</a></li>                                 
+
+                                <li  ><a href="https://aktechindia.com/contact/">Contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    Start mainmenu right box
+                    <div class="mainmenu-right-box clearfix pull-right">
+                        <div class="outer-search-box">
+                            <div class="seach-toggle"><i class="fa fa-search"></i></div>
+                            <ul class="search-box">
+                                <li>
+                                    <form id="search-all-form" method="get" action="https://aktechindia.com/search-result">
+                                        <div class="form-group">
+                                            <input type="search" autocomplete="off" name="search" placeholder="Search Here">
+                                            <button type="submit"><i class="fa fa-search"></i></button>
+                                        </div>
+                                        <small style="color:black">Please enter 3 characters for searching.</small>
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    End mainmenu right box
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</header>  -->
+
+<div class="wsmenucontainer clearfix">
+            <div id="overlapblackbg"></div>
+            <div class="wsmobileheader clearfix"> <a id="wsnavtoggle"  class="animated-arrow"><span></span></a> <a class="smallogo" href="https://aktechindia.com/"><img src="https://aktechindia.com/assets/images/resources/logo_black.png"  alt="" /></a> </div>
+
+            <div class="headerfull">
+                <!--Main Menu HTML Code-->
+                <div class="wsmain">
+                    <div class="smllogo"><a href="https://aktechindia.com/"><img src="https://aktechindia.com/assets/images/resources/logo_black.png" alt="Aktech Logo"></a></div>
+                    <nav class="wsmenu clearfix">
+                        <ul class="mobile-sub wsmenu-list">
+                            <li><a href="#" class="navtext" style="padding: 22px 16px"><span></span><span style="font-size: 14px;font-weight: normal;">Products</span></a>
+                                <div class="wsshoptabing wtsdepartmentmenu clearfix">
+                                    <div class="wsshopwp clearfix">
+                                        <ul class="wstabitem clearfix">
+                                                                                            <li class="wsshoplink-active"><a class="maincat" href="#">Non Woven Machines</a>
+                                                    <div class="wstitemright clearfix wstitemrightactive">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 col-md-12 clearfix">
+
+                                                                    <div class="wstheading clearfix">Non Woven Machines</div>
+                                                                    <ul class="wstliststy01 clearfix">
+                                                                                                                                                        <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/bag-making-machines-manual">Bag Making Machines (Manual)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/bag-making-machines-semi-automatic">Bag Making Machines ( Semi-Automatic)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/bag-making-machines-fully-automatic">Bag Making Machines (Fully Automatic)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/screen-printing-machine-series">Screen Printing Machine Series</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/offset-printing-machine-series">Offset Printing Machine Series</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/roll-to-roll-printing-machine-series">Roll to Roll Printing Machine Series</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/bag-to-bag-printing-machines">Bag to Bag Printing Machines</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/roll-slitting-machine-series">Roll Slitting Machine Series</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/sealing-machines-manual">Sealing Machines (Manual)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/sealing-machines-automatic">Sealing Machines (Automatic)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/cross-cutting-machines-manual">Cross Cutting Machines (Manual)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/cross-cutting-machines-automatic">Cross Cutting Machines (Automatic)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/coating-and-laminating-machines">Coating And Laminating Machines</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/non-woven-machines/other-machines-spares">Other Machines & Spares</a>
+                                                                                </li>
+
+
+                                                                                                                                                    </ul>
+
+
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                            <li class="wsshoplink-active"><a class="maincat" href="#">Surgical Mask And Head Cap</a>
+                                                    <div class="wstitemright clearfix wstitemrightactive">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 col-md-12 clearfix">
+
+                                                                    <div class="wstheading clearfix">Surgical Mask And Head Cap</div>
+                                                                    <ul class="wstliststy01 clearfix">
+                                                                                                                                                        <li>
+                                                                                    <a  href="https://aktechindia.com/products/surgical-mask-and-head-cap/surgical-mask">Surgical Mask</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/surgical-mask-and-head-cap/surgical-cap">Surgical Cap</a>
+                                                                                </li>
+
+
+                                                                                                                                                    </ul>
+
+
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                            <li class="wsshoplink-active"><a class="maincat" href="#">Fabrics</a>
+                                                    <div class="wstitemright clearfix wstitemrightactive">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 col-md-12 clearfix">
+
+                                                                    <div class="wstheading clearfix">Fabrics</div>
+                                                                    <ul class="wstliststy01 clearfix">
+                                                                                                                                                        <li>
+                                                                                    <a  href="https://aktechindia.com/products/fabrics/100-virgin-non-woven-fabric">100% Virgin Non Woven Fabric</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/fabrics/premium-non-woven-for-big-shopper-only">Premium Non Woven (For big shopper only)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/fabrics/cotton-all-gsm">Cotton (All GSM)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/fabrics/jute-fabric-any-gsm">Jute Fabric (Any GSM)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/fabrics/polyster-all-gsm">Polyster (All GSM)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/fabrics/organic-cotton">Organic Cotton</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/fabrics/silk">Silk</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/fabrics/nylon-fabric">Nylon Fabric</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/fabrics/velvet">Velvet</a>
+                                                                                </li>
+
+
+                                                                                                                                                    </ul>
+
+
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                            <li class="wsshoplink-active"><a class="maincat" href="#">Sewing Machines</a>
+                                                    <div class="wstitemright clearfix wstitemrightactive">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 col-md-12 clearfix">
+
+                                                                    <div class="wstheading clearfix">Sewing Machines</div>
+                                                                    <ul class="wstliststy01 clearfix">
+                                                                                                                                                        <li>
+                                                                                    <a  href="https://aktechindia.com/products/sewing-machines/mini-sewing-machines">Mini Sewing Machines</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/sewing-machines/composite-sewing-machines">Composite Sewing Machines</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/sewing-machines/electric-sewing-machines">Electric Sewing Machines</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/sewing-machines/non-electric-sewing-machines">Non Electric Sewing Machines</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/sewing-machines/portable-sewing-machines">Portable Sewing Machines</a>
+                                                                                </li>
+
+
+                                                                                                                                                    </ul>
+
+
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                            <li class="wsshoplink-active"><a class="maincat" href="#">Oil Extractors and Expellers</a>
+                                                    <div class="wstitemright clearfix wstitemrightactive">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 col-md-12 clearfix">
+
+                                                                    <div class="wstheading clearfix">Oil Extractors and Expellers</div>
+                                                                    <ul class="wstliststy01 clearfix">
+                                                                                                                                                        <li>
+                                                                                    <a  href="https://aktechindia.com/products/oil-extractors-and-expellers/oil-pressing-machines">Oil Pressing Machines</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/oil-extractors-and-expellers/oil-extractor-machines">Oil Extractor Machines</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/oil-extractors-and-expellers/digital-extractor-machines">Digital Extractor Machines</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/oil-extractors-and-expellers/home-oil-extractors">Home Oil Extractors</a>
+                                                                                </li>
+
+
+                                                                                                                                                    </ul>
+
+
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                            <li class="wsshoplink-active"><a class="maincat" href="#">Carry Bags</a>
+                                                    <div class="wstitemright clearfix wstitemrightactive">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 col-md-12 clearfix">
+
+                                                                    <div class="wstheading clearfix">Carry Bags</div>
+                                                                    <ul class="wstliststy01 clearfix">
+                                                                                                                                                        <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/non-woven-shopping-bag">Non woven Shopping Bag</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/promotion-bags-non-woven">Promotion Bags (Non Woven)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/w-cut-shopping-bags-non-woven">W Cut Shopping Bags (Non woven)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/d-cut-shopping-bag-non-woven">D Cut Shopping Bag (Non Woven)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/u-cut-shopping-bag-non-woven">U Cut Shopping Bag (Non Woven)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/jute-big-shoppers">Jute Big Shoppers</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/box-type-bag-non-woven">Box Type Bag (Non Woven)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/canvas-bag">Canvas Bag</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/elagant-promotion-bags-cotton-non-woven">Elagant Promotion Bags (Cotton/ Non Woven)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/cotton-shopping-bags">Cotton Shopping Bags</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/laundry-bags">Laundry Bags</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/paper-carry-bags-loop-handle-plain">Paper Carry Bags (Loop handle/Plain)</a>
+                                                                                </li>
+
+
+                                                                                                                                                                <li>
+                                                                                    <a  href="https://aktechindia.com/products/carry-bags/polyester-carry-bag">Polyester Carry Bag</a>
+                                                                                </li>
+
+
+                                                                                                                                                    </ul>
+
+
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                            <li class="wsshoplink-active"><a class="maincat" href="#">Oil & Seeds</a>
+                                                    <div class="wstitemright clearfix wstitemrightactive">
+                                                        <div class="container-fluid">
+                                                            <div class="row">
+                                                                <div class="col-lg-12 col-md-12 clearfix">
+
+                                                                    <div class="wstheading clearfix">Oil & Seeds</div>
+                                                                    <ul class="wstliststy01 clearfix">
+                                                                                                                                            </ul>
+
+
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                              <li class="wssearchbar clearfix">
+                                <form class="topmenusearch" enctype="text/plain" id="search-all-form" method="get" action="https://aktechindia.com/search-prod">
+                                    <input placeholder="Search Product By Name..." value="" autocomplete="off" name="search" >
+                                    <button class="btnstyle" type="submit"><i class="searchicon fa fa-search" aria-hidden="true"></i></button>
+                                </form>
+                                
+                            </li>
+
+                            <li class=" clearfix " > <a href="https://aktechindia.com/" class="">Home</a>
+
+                            </li>
+                            <li class=" clearfix" class="dropdown"> <a href="https://aktechindia.com/about/" class="">About</a>
+
+                            </li>
+                            <li class=" clearfix" > <a href="https://aktechindia.com/projects/" class="">Project</a>
+                            </li>
+                            <li class=" clearfix"  ><a href="https://aktechindia.com/news/">News</a>
+
+                            </li>
+
+                            <li class=" clearfix" >  <a href="https://aktechindia.com/contact/" class="">Contact</a>
+                            </li>
+                            <li class=" clearfix">  <a href="https://aktechindia.com/shopping/customized-product">Shopping</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--Menu HTML Code-->
+            </div>
+        </div>
+
+<!--End header area-->     
+
+        
+        <!--Start blog area-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/css/bootstrap-slider.css" />
+<link rel="stylesheet" type="text/css" href="https://aktechindia.com/assets/product_plug/css/FancyProductDesigner-all.min.css" />
+
+<style>
+    .row-eq-height {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display:         flex;
+    }
+    .row-eq-height{
+        margin-bottom: 20px;
+    }
+    .row-eq-height .row {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .row-eq-height [class*="col-"] {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #fff;
+        background-color: rgb(255, 255, 255);
+        /* border: 1px solid #ddd; */
+        /* border: 1px solid rgba(86,61,124,.2); */
+    }
+
+    .loading-content{position: relative;}
+    .loading-content-row{position: relative;min-height: 350px}
+    .overlay{position: absolute;left: 0; top: 0; right: 0; bottom: 0;z-index: 2;background-color: rgba(255,255,255,0.8);}
+    .overlay-content {
+        position: absolute;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        top: 20%;
+
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: #555;
+    }
+    .form-line  {
+        position: relative;
+    }
+    .boxstyle{
+        border: 1px solid #a9a4a4;
+        border-style:dotted;
+    }
+    .imgstyle{
+        position:relative;
+        padding: 50px 1px 0px 0px;
+        margin-bottom: 50px;
+    }
+    .formstyle{
+        border: 1px solid #eee;
+    }
+    .inputfld{
+        background: #ffffff;
+        border: 1px solid #ececec;
+        color: #333;
+        display: block;
+        font-size: 14px;
+        height: 50px;
+        margin: 30px 15px;
+        padding: 7px;
+        width: 90%;
+        transition: all 500ms ease;
+    }
+    .inputfld:focus{
+        border-color: #82c040;
+    }
+    .alertstyle{
+        color: red;
+        padding-bottom: 45px;
+        line-height: 0px;
+        padding: 0;
+        position: absolute;
+        /* top: 0; */
+        bottom: -14px;
+        font-size: 13px;
+        left: 13px;
+        font-weight: 500;
+    }
+    .sub{
+        width: 100%;
+        background: #82c040;
+        color: #fff;
+        padding: 8px 0 8px;
+        margin-top: 25px;
+    }
+    .top{
+        /* padding-top: 40px;*/
+    }
+    .inputfld.hover{
+        /*  color: #83c140;*/
+    }
+    .formhead{
+        color: #222222!important;
+        background-color: #eceaea;
+        padding: 12px 0px 12px 0px;
+        /* margin: 22px 18px 0px 9px; */
+        font-weight: 600;
+        font-size: 18px;
+        /* text-transform: uppercase; */
+        text-align: center;
+        /* font-family: arial !important; */
+        /* text-shadow: 1px 1px 1px #FFF; */
+    }
+    .single-product-item .img-holder img{
+        object-fit: contain!important;
+    }
+    a {
+        color: black;
+    }
+
+    .label {
+        display: inline;
+        padding: .2em .6em .3em;
+        font-size: 100%;
+        color: black;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: baseline;
+        border-radius: .25em;
+    }
+    .title_prd{
+        font-size: 24px;
+        color: #83c140;
+        margin: 0 0 15px auto;
+    }
+    .salesContent{
+
+    }
+    .selectmenu1{
+        background: #fff;
+        width: 100% !important;
+        border-radius: 0px !important;
+        border: 1px solid #dedada;
+        color: #848484;
+        font-size: 16px;
+        font-weight: 300;
+        text-transform: capitalize;
+        height: 50px !important;
+        position: relative;
+        margin-bottom: 30px;
+        font-family: 'Hind', sans-serif;
+    }
+    .form-control:focus {
+        border-color: #76b51b;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(118, 181, 27, 0.63);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(118, 181, 27, 0.63);
+    }
+
+    #ex1Slider .slider-selection {
+        background: #BABABA;
+    }
+    .slider.slider-horizontal{
+        width: 95%;
+        margin-left: 3%;/* sample value - set it as you like*/
+    }
+
+    .filtertop{
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+    .filtertop .form-line{
+        background: #e6e5e3;
+
+        padding: 10px 15px;
+        text-align: center;
+    }
+    .filtertop .col-md-6:first-child{
+        padding-right: 0;
+    }
+    .filtertop > [class^="col-"],
+    .filtertop > [class*=" col-"] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .filtertop .col-md-6:nth-child(1) .form-line{
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    .filtertop .col-md-6:nth-child(2) .form-line{
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    .filtertop{ margin-right: 0;
+                margin-left: 0;
+    }
+    .filtertop label{
+        font-weight: 300;
+        color: #333;
+    }
+    .filtertop .form-line.active{
+        background: #82c040;
+        color:#fff;
+    }
+    .filtertop .form-line.active label{
+        color:#fff;
+    }
+    .label{
+        padding-left: 2px;
+        font-weight: 300;
+    }
+
+    .custom-aktechtable th{
+        font-weight: 500;
+        border-bottom: 1px solid #ddd!important;
+        padding: 28px 10px!important;
+        color: #222222;
+
+    }
+    .custom-aktechtable thead{
+        border-top: 1px solid #eee!important;
+    }
+
+    .addtcart{
+        color: #fff;
+        /* line-height: 0; */
+        /*    padding-top: 15px;
+            padding-bottom: 15px;
+            margin-bottom: 15px;*/
+        background: #8fc653;
+        border-color: #8fc653;
+        transition: all 500ms ease;
+    }
+    .addtcart:hover{
+        background: #2e2e2e;
+    }
+    .custom-aktechtable th:last-child{
+        /*    padding: 0!important;*/
+    }
+    .custom-aktechtable tbody small{
+        color: #82c040;
+    }
+    table#custom_product_table th, table#custom_product_table td {
+        text-align: center;
+    }
+    .preloader {
+        position: fixed;
+        z-index: 9999999999999999999999999999;
+        left: 0px;
+        top: 0px;
+        background: #83c14036;
+        background: -webkit-linear-gradient(to left, #abef62, #83c140);
+        /* background: linear-gradient(to left, #abef62, #83c140); */
+        width: 100%;
+        height: 100%;
+        z-index: 999999;
+    }
+
+    .loader {
+        border: 6px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 6px solid #3498db;
+        width: 70px;
+        height: 70px;
+        -webkit-animation: spin 2s linear infinite; /* Safari */
+        animation: spin 2s linear infinite;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    .slider-selection.tick-slider-selection{
+            background-image: -webkit-linear-gradient(top, #82c041 0%, #c4ef95 100%);
+        background-image: -o-linear-gradient(top, #82c041 0%, #c4ef95 100%);
+        background-image: linear-gradient(to bottom, #82c041 0%, #c4ef95 100%);
+    }
+    .slider-tick.in-selection{
+            background-image: -webkit-linear-gradient(top, #82c041 0%, #c4ef95 100%);
+        background-image: -o-linear-gradient(top, #82c041 0%, #c4ef95 100%);
+        background-image: linear-gradient(to bottom, #82c041 0%, #c4ef95 100%);
+    }
+</style>
+
+<!-- Virtual Bag Customization -->
+<!--Start Preloader -->
+<!-- <div class="preloader">
+   <div class="cube-wrapper">
+     <div class="cube-folding">
+       <div class="loader"></div>
+     </div>
+     <!--<span class="loading" data-name="Loading">Adding to cart</span>-->
+<!--</div>
+</div> -->
+<!--End Preloader -->
+<section id="shop-area" class="main-shop-area ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12" id="designer-container">
+                <!--                <div id="clothing-designer" class="fpd-container fpd-shadow-2 fpd-topbar fpd-tabs fpd-tabs-side fpd-top-actions-centered fpd-bottom-actions-centered fpd-views-inside-left">
+                                    <div class="fpd-product" title="D-Cut Bags" data-thumbnail="https://aktechindia.com/assets/product_plug/images/shirt/preview.png">
+                                        <img id="bagimage" src="https://aktechindia.com/assets/product_plug/images/shirt/bas.png" title="Base" data-parameters='{"left": 300, "top": 250, "colors": "#ee82ee,#03A9F4"}' />
+                                    </div>
+                                </div>-->
+            </div>
+            <!--Start sidebar Wrapper-->
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div class="sidebar-wrapper">
+                    <div class="">
+                        <!--<h2 class="title">{{product.name}}</h2>-->
+                        <h2 class="title_prd bag-title"></h2>
+                        <!--<p ng-bind-html='product.short_description | limitTo : 200'></p>-->
+                        <!--<a href="javaScript:void(0)" style="float: right;">Read More</a>-->
+<!--                    <div  class="salesContent"><p>Side gusset carry bags are ideal for storing and packaging items that are bulky or have an unusual shape. These plastic carrier bags take less space than bottom gusseted ones and are easy to store, lightweight. </p></div>-->
+                        <div class="clearfix"></div>
+                    </div>
+                    <!--Start single sidebar-->
+                    <div class="single-sidebar question-form">
+                        <form id="customized_product_form" method="post" action="">
+                            <div class="row filtertop">
+                                <div class="col-md-6">
+                                    <div class="form-line custom" style="padding: 0px;">
+                                        <label class="label" style="display: block;padding: 15px;">
+                                            <input type="radio" hidden="" class="ptype confpro" id="custom_printed" value="custom" name="ptype">
+                                            Custom Printed
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-line blank active" style="padding: 0px;">
+                                        <label class="label" style="display: block;padding: 15px;">
+                                            <input type="radio"  hidden=""  class="ptype confpro" id="blank" checked value="blank" name="ptype">
+                                            Plain
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-line">
+                                        <label class="label" for="bag_type">Bag Type</label>
+                                        <select id="bag_type" name="bag_type" class="form-control confpro gsminputs selectmenu1">
+
+                                                                                                <option value="1">Promotional Bag</option>
+                                                                                                        <option value="2">Carry Bag</option>
+                                                                                                        <option value="3">Box Bag</option>
+                                                                                                        <option value="4">Big Shopper</option>
+                                                                                                        <option value="5">LDPE</option>
+                                                                                                        <option value="6">Polypropylene (PP)</option>
+                                                                                            </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-line">
+                                        <label class="label" for="fabric_type">Fabric Type</label>
+                                        <select id="fabric_type" name="fabric_type" class="form-control confpro gsminputs selectmenu1">
+
+                                                                                                <option value="15">Non Woven 100% Virgin</option>
+                                                                                                        <option value="16">Non Woven Premium Quality</option>
+                                                                                                        <option value="17">Non Woven Eco-Quality</option>
+                                                                                                        <option value="18">Cotton</option>
+                                                                                                        <option value="19">Jute</option>
+                                                                                                        <option value="21">Paper</option>
+                                                                                                        <option value="22">Polyester</option>
+                                                                                                        <option value="23">LDPE</option>
+                                                                                                        <option value="24">HDPE</option>
+                                                                                                        <option value="25">NF</option>
+                                                                                            </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-line">
+                                        <label class="label" for="size">Size(Inches)</label>
+                                        <select id="size" name="size" class="form-control confpro gsminputs selectmenu1">
+
+                                                                                                <option value="1">10x14</option>
+                                                                                                        <option value="2">13x16</option>
+                                                                                                        <option value="4">16x20</option>
+                                                                                                        <option value="5">17x23</option>
+                                                                                                        <option value="6">20x24</option>
+                                                                                            </select>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-line">
+                                        <label class="label" for="handle">Handle</label>
+                                        <select id="handle" name="handle" class="form-control confpro gsminputs selectmenu1">
+
+                                                                                                <option value="1">D Cut</option>
+                                                                                                        <option value="2">Loop</option>
+                                                                                                        <option value="3">U Cut</option>
+                                                                                                        <option value="4">W Cut</option>
+                                                                                                        <option value="5">Plastic</option>
+                                                                                                        <option value="6">Bamboo</option>
+                                                                                            </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-line">
+                                        <label class="label" for="bag_colour">Bag Colour</label>
+                                        <select id="bag_colour" name="bag_colour" class="form-control gsminputs confpro selectmenu1">
+
+                                                                                                <option value="1">violet</option>
+                                                                                                        <option value="2">indigo</option>
+                                                                                                        <option value="3">blue</option>
+                                                                                                        <option value="4">green</option>
+                                                                                                        <option value="5">yellow</option>
+                                                                                                        <option value="6">orange</option>
+                                                                                                        <option value="7">red</option>
+                                                                                                        <option value="8">white</option>
+                                                                                            </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-line">
+                                        <label class="label" for="stitch_type">Stitching Type</label>
+                                        <select id="stitch_type" name="stitch_type" class="form-control gsminputs confpro selectmenu1">
+
+                                                                                                <option value="1">Punching</option>
+                                                                                                        <option value="2">Stiching</option>
+                                                                                            </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 gsmcontainer">
+                                    <!--                                    <div class="form-line">
+                                                                            <label class="label" for="stitch_type">GSM</label>
+                                                                            <input class="form-control confpro" id="gsm" type="text" name="gsm"/>
+                                                                        </div>-->
+                                </div>
+                            </div>
+                            <div class="row gsdiv" style="display:none">
+                                <div class="col-md-6">
+                                    <div class="form-line">
+                                        <label class="label" for="gusset_colour">Gusset Colour</label>
+                                        <select id="gusset_colour" name="gusset_colour" class="form-control confpro selectmenu1">
+                                                                                                <option value="1">violet</option>
+                                                                                                        <option value="2">indigo</option>
+                                                                                                        <option value="3">blue</option>
+                                                                                                        <option value="4">green</option>
+                                                                                                        <option value="5">yellow</option>
+                                                                                                        <option value="6">orange</option>
+                                                                                                        <option value="7">red</option>
+                                                                                                        <option value="8">white</option>
+                                                                                            </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-line">
+                                        <label class="label" for="gusset_width">Gusset Width(Inches)</label>
+                                        <input type="number" id="gusset_width" class="form-control confpronum selectmenu1" min="0" name="gusset_width"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row custom_print">
+                                <div class="col-md-4">
+                                    <div class="form-line">
+                                        <label class="label" for="print_side">Printing Side</label>
+                                        <select id="print_side" name="print_side" class="form-control confpro selectmenu1">
+                                            <option value="single">Single Side</option>
+                                            <option value="both">Both Side</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="form-line">
+                                        <label class="label" for="printing_style">Printing Style</label>
+                                    </div>
+                                    <label class="radio-inline">
+                                        <input class="confpro" type="radio" name="printing_style" value="single" checked>Single Colour</label>
+                                    <label class="radio-inline"><input class="confpro" type="radio" name="printing_style" value="double">2-Colour</label>
+                                    <label class="radio-inline"><input class="confpro" type="radio" name="printing_style" value="multi">Multi Colour</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <!--End single sidebar-->
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <h3 style="    margin-bottom: 20px;
+                    font-weight: 400;    color: #222222;" class="bag-title"></h3>
+                <div class="table-responsive custom-aktechtable">
+                    <table class="table" id="custom_product_table">
+                        <thead>
+                            <tr>
+                                <th>SKU</th>
+                                <th>Size</th>
+                                <th style="width: 20%;">Quantity</th>
+                                <th>Unit Price*</th>
+                                <th style="width:11%">Pack(s)</th>
+                                <th style="width:18%">Pcs</th>
+                                <th style="width: 15%;">Price</th>
+                                <th>Add to cart</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+
+                    </table>
+                    <small style="font-size: 12px;">*(Excl. GST and Shipping)</small>
+                </div>
+            </div>
+        </div>
+        <!--End Sidebar Wrapper-->
+    </div>
+</div>
+</section>
+<div >
+
+</div>
+<div class="preloader" id="loaderD">
+
+    <div class="cube-wrapper">
+        <img src="https://aktechindia.com/assets/img/ajax-loader.gif" >
+    </div>
+</div>
+<style>
+    #loaderD{
+        display: none;
+        /*        position: fixed;
+                z-index: 999999;
+                top: 50%;
+                left: 50%;*/
+    }
+</style>
+<script>
+    var designer_reload = true;
+    $(document).ready(function () {
+
+        $(document).ajaxStart(function () {
+            $("#loaderD").css("display", "block");
+        });
+
+        $(document).ajaxComplete(function () {
+            $("#loaderD").css("display", "none");
+        });
+
+        var data_load = $('form#customized_product_form').serialize();
+        //filter(data_load);
+        getGSMnGusset(data_load);
+        $('.custom_print').hide();
+        $('.ptype').change(function () {
+            var pval = $(this).val();
+            if (pval == 'blank') {
+                $('.custom_print').hide();
+                $('.blank').addClass('active');
+                $('.custom').removeClass('active');
+            }
+            else if (pval == 'custom') {
+                $('.custom_print').show();
+                $('.custom').addClass('active');
+                $('.blank').removeClass('active');
+            }
+        });
+        $('body').on('change', '.confpro', function () {
+            var idss = $(this).attr('id');
+            designer_reload = checkReload(idss);
+            var data = $('form#customized_product_form').serialize();
+            filter(data);
+        });
+        $('.confpronum').bind('keyup mouseup', function () {
+            var idss1 = $(this).attr('id');
+            designer_reload = checkReload(idss1);
+            var data = $('form#customized_product_form').serialize();
+            filter(data);
+        });
+        $('.confpronum').bind('mousewheel', function (e) {
+            if ($('.confpronum').is(':focus'))
+                e.preventDefault();
+        });
+
+    });
+
+    function checkReload(idss) {
+
+        if (idss == 'bag_type' || idss == 'fabric_type' || idss == 'size' || idss == 'handle' || idss == 'bag_colour' || idss == 'stitch_type'
+                || idss == 'custom_printed' || idss == 'blank' || idss == 'gusset_colour') {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    function filter(data) {
+        var ptype = $('input[name="ptype"]:checked').val();
+        $.ajax({
+            url: base_url + "shopping/customized-product/filter",
+            type: 'POST',
+            datatype: 'JSON',
+            data: data,
+            success: function (data) {
+                var show = JSON.parse(data);
+                // console.log(show.product);
+                $('table#custom_product_table tbody').html(show.html);
+                $('#gusset_width').val('');
+                if (show.product) {
+                    $('#gusset_width').val(show.product['gusset_width']);
+                }
+                var prodimg = $(show.html).find('#productimg').val();
+                if (designer_reload) {
+                    if (prodimg)
+                        getProductDesigner(prodimg, ptype);
+                    else
+                        getProductDesigner('', ptype);
+                }
+            }
+        });
+    }
+
+    $('.gsminputs').change(function () {
+        var data = $('form#customized_product_form').serialize();
+        getGSMnGusset(data);
+    });
+
+    function getGSMnGusset(data) {
+        $.ajax({
+            url: base_url + "shopping/customized-product/productgsm",
+            type: 'POST',
+            datatype: 'JSON',
+            data: data,
+            success: function (data) {
+                $('#gusset_width').val('');
+                $('#gusset_colour').val('');
+                if (data) {
+                    var response = JSON.parse(data);
+                    $('.gsmcontainer').html(response['gsmcontent']);
+                    if (response['isgusset'] != '0') {
+                        $('.gsdiv').show();
+                        setSelectedIndex(document.getElementById("gusset_colour"), 1);
+                    } else {
+                        $('.gsdiv').hide();
+                    }
+                } else {
+                    $('.gsdiv').hide();
+                }
+                var data_load = $('form#customized_product_form').serialize();
+                filter(data_load);
+            }
+        });
+        updateBagName();
+    }
+
+    function updateBagName() {
+        var bagtype = $('#bag_type').find('option:selected').html();
+        var colour = $('#bag_colour').find('option:selected').html();
+        var size = $('#size').find('option:selected').html();
+        $('.bag-title').html(colour.charAt(0).toUpperCase() + colour.slice(1) + ' ' + bagtype);
+    }
+
+    function getProductDesigner(img, ptype) {
+
+        $.ajax({
+            url: base_url + "shopping/customized-product/productdesigner",
+            type: 'POST',
+            data: {'image': img, 'ptype': ptype},
+            success: function (data) {
+                $('#designer-container').html(data);
+            }
+        });
+    }
+
+    function setSelectedIndex(s, i)
+    {
+        s.options[i - 1].selected = true;
+        return;
+    }
+
+
+</script>
+
+<script src="https://aktechindia.com/assets/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/bootstrap-slider.js"></script>
+<!--<script>
+    $("#gsm").bootstrapSlider({
+        ticks: [0, 0],
+        ticks_labels: ['0', '0'],
+        ticks_snap_bounds: 1,
+    });
+</script>-->
+<script src="https://aktechindia.com/assets/product_plug/js/fabric.min.js" type="text/javascript"></script>
+<script src="https://aktechindia.com/assets/product_plug/js/FancyProductDesigner-all.min.js" type="text/javascript"></script>
+
+
+        <!--Start footer area-->  
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <!--Start single footer widget-->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="single-footer-widget mar-btm">
+                    <div class="footer-logo">
+                        <a href="https://aktechindia.com/">
+                            <img src="https://aktechindia.com/assets/images/footer/footer-logo.png" alt="Aktech">
+                        </a>
+                    </div>
+                    <div class="our-info">
+                        <p>AKTECH MITHRA MARKETING (INDIA) PVT. LTD. is one of the fastest growing companies in a very short time. Our company started its operations in March 2016 at Cochin, the metro city of Kerala, India. The company initially was engaged in the sale of cotton bags and non-woven shopper bags in wholesale markets. In the year 2017 we began to aggregate some of the major bag suppliers under one roof. ...</p>
+
+                        <!-- <p> Then, in the same year, we started to supply fabrics and bag making machines from the manufacturers in various parts of India. This year, thatâ€™s in 2018, we have started to import more machineries from worldwide sources.AKTECH MITHRA MARKETING (INDIA) PVT. LTD. is one of the fastest growing companies in a very short time. Our company started its operations in March 2016 at Cochin, the metro city of Kerala, India. The company initially was engaged in the sale of cotton bags and non-woven shopper bags in wholesale markets. In the year 2017 we began to aggregate some of the major bag suppliers under one roof. Then, in the same year, we started to supply fabrics and bag making machines from the manufacturers in various parts of India. This year, thatâ€™s in 2018, we have started to import more machineries from worldwide sources. Aktech has signed agreements with various overseas companies for the exclusive distribution of their products and thus their unique machines have made their presence in India. At present, the company is upgrading its operations in all aspects, including the infrastructure, sales and service strategies, production, and research and development. We all are happy to be a part of the team that aims for a revolutionary change.</p> -->
+
+
+                        <div class="button">
+                            <a class="thm-btn" href="https://aktechindia.com/about/">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-lg-2 col-md-6 col-sm-6 col-xs-12">
+                <div class="single-footer-widget mar-btm">
+                    <div class="title">
+                        <h3>Usefull Links</h3>
+                        <span class="border"></span>
+                    </div>
+                    <ul class="usefull-links">
+                        <li><a href="https://aktechindia.com/about/">About Us</a></li>
+                        <!-- <li><a href="https://aktechindia.com/products/">Our Products</a></li> -->
+                        <li><a href="https://aktechindia.com/news/">Latest News</a></li>
+                        <li><a href="https://aktechindia.com/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--Start single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="single-footer-widget">
+                    <div class="title">
+                        <h3>Latest News</h3>
+                        <span class="border"></span>
+                    </div>
+                    <ul class="latest-news">
+                                                <li>
+                            <h4><a href="https://aktechindia.com/news/business_growth/fabric-recycling">Fabric Recycling</a></h4>
+                            <span>March 15, 2018</span>
+                        </li>
+                                                <li>
+                            <h4><a href="https://aktechindia.com/news/business_growth/100-polypropylene-non-woven-is-called-virgin">100% Polypropylene Non woven is called virgin</a></h4>
+                            <span>March 21, 2018</span>
+                        </li>
+                                            </ul>
+                </div>
+            </div>
+            <!--End single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                <div class="single-footer-widget martop">
+                    <div class="title">
+                        <h3>Contact Details</h3>
+                        <span class="border"></span>
+                    </div>
+                    <ul class="footer-contact-info">
+                        <li>
+                            <div class="icon-holder">
+                                <span class="flaticon-gps"></span>
+                            </div>
+                            <div class="text-holder">
+                                <h5>Door No. 69/3737/ 2nd Floor,Naureen Tower,<br/>Sastha Temple Road, Kaloor, Cochin Kerala</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-holder">
+                                <span class="flaticon-technology"></span>
+                            </div>
+                            <div class="text-holder">
+                                <h5>+91 484 485 1131 & +91 98802 41818</h5>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-holder">
+                                <span class="flaticon-multimedia-1"></span>
+                            </div>
+                            <div class="text-holder">
+                                <h5>support@aktechindia.com</h5>
+                            </div>
+                        </li>
+                    </ul>
+<!--                    <ul class="footer-social-links">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                    </ul>-->
+                </div>
+            </div>
+            <!--End single footer widget-->
+        </div>
+    </div>
+</footer>   
+<!--End footer area-->
+
+<!--Start footer bottom area--> 
+<section class="footer-bottom-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-bottom">
+                    <div class="copyright-text pull-left">
+                        <p>Copyrights Â© 2017 <a href="javascript:void(0)">aktechindia.com</a> All Rights Reserved.</p> 
+                    </div>
+                    <div class="footer-menu pull-right">
+                        <ul>
+<!--                            <li><a href="https://aktechindia.com/coming/">Legal</a></li>
+                            <li><a href="https://aktechindia.com/coming/">Sitemap</a></li>
+                            <li><a href="https://aktechindia.com/coming/">Privacy Policy</a></li>-->
+<!--                            <li><a href="https://aktechindia.com/coming/">Terms & Condition</a></li>        -->
+                            <li>Designd by <a style="color:white" href="http://comdudes.com">comdudes</a></li> 
+                        </ul>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>    
+</section> 
+<!--End footer bottom area-->  
+
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+<!-- Wow Script -->
+<script src="https://aktechindia.com/assets/js/wow.min.js"></script>
+<!-- bootstrap -->
+<script src="https://aktechindia.com/assets/js/bootstrap.min.js"></script>
+        <!-- bootstrap notify -->
+        <script src="https://aktechindia.com/assets/js/bootstrap-notify.min.js"></script>
+<!-- bx slider -->
+<script src="https://aktechindia.com/assets/js/jquery.bxslider.min.js"></script>
+<!-- count to -->
+<script src="https://aktechindia.com/assets/js/jquery.countTo.js"></script>
+<!-- owl carousel -->
+<script src="https://aktechindia.com/assets/js/owl.carousel.min.js"></script>
+<!-- validate -->
+<script src="https://aktechindia.com/assets/js/validation.js"></script>
+<!-- mixit up -->
+<script src="https://aktechindia.com/assets/js/jquery.mixitup.min.js"></script>
+<!-- easing -->
+<script src="https://aktechindia.com/assets/js/jquery.easing.min.js"></script>
+<!-- gmap helper -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzPSV2jshbjI8fqnC_C4L08ffnj5EN3A"></script>
+<!--gmap script-->
+<script src="https://aktechindia.com/assets/js/gmaps.js"></script>
+<script src="https://aktechindia.com/assets/js/map-helper.js"></script>
+<!-- video responsive script -->
+<script src="https://aktechindia.com/assets/js/jquery.fitvids.js"></script>
+<!-- jQuery ui js -->
+<script src="https://aktechindia.com/assets/default/jquery-ui-1.11.4/jquery-ui.js"></script>
+<!-- Language Switche  -->
+<script src="https://aktechindia.com/assets/default/language-switcher/jquery.polyglot.language.switcher.js"></script>
+<!-- fancy box -->
+<script src="https://aktechindia.com/assets/js/jquery.fancybox.pack.js"></script>
+<script src="https://aktechindia.com/assets/js/jquery.appear.js"></script>
+<!-- isotope script-->
+<script src="https://aktechindia.com/assets/js/isotope.js"></script>
+<script src="https://aktechindia.com/assets/js/jquery.prettyPhoto.js"></script> 
+<!-- jQuery timepicker js -->
+<script src="https://aktechindia.com/assets/default/timepicker/timePicker.js"></script>
+<!-- Bootstrap select picker js -->
+<script src="https://aktechindia.com/assets/default/bootstrap-sl-1.12.1/bootstrap-select.js"></script>                               
+<script src="https://aktechindia.com/assets/default/html5lightbox/html5lightbox.js"></script> 
+
+<!-- Dynamically added script -->
+
+        <script src="https://aktechindia.com/assets/js/sweetalert.min.js"></script>
+        <script src="https://aktechindia.com/assets/js/page/index.js"></script>
+
+<!-- revolution slider js -->
+<script src="https://aktechindia.com/assets/default/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="https://aktechindia.com/assets/default/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="https://aktechindia.com/assets/default/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="https://aktechindia.com/assets/default/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="https://aktechindia.com/assets/default/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="https://aktechindia.com/assets/default/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="https://aktechindia.com/assets/default/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="https://aktechindia.com/assets/default/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="https://aktechindia.com/assets/default/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="https://aktechindia.com/assets/default/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="https://aktechindia.com/assets/default/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script type="text/javascript" src="https://aktechindia.com/assets/js/slick.min.js"></script>
+
+ <script type="text/javascript" src="https://aktechindia.com/assets/js/webslidemenu.js"></script>
+
+<!-- thm custom script -->
+<script src="https://aktechindia.com/assets/js/custom.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122567341-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-122567341-1');
+
+            function showNotification(colorName, text, placementFrom, placementAlign) {
+                var allowDismiss = true;
+                var animateEnter = 'animated fadeInDown';
+                var animateExit = 'animated fadeOutUp';
+                $.notify({
+                    message: text
+                },
+                {
+                    type: colorName,
+                    allow_dismiss: allowDismiss,
+                    newest_on_top: true,
+                    timer: 1000,
+                    placement: {
+                        from: placementFrom,
+                        align: placementAlign
+                    },
+                    animate: {
+                        enter: animateEnter,
+                        exit: animateExit
+                    },
+                    template: '<div data-notify="container" style="text-align:left" class=" bootstrap-notify-container alert alert-dismissible {0} ' + (allowDismiss ? "p-r-35" : "") + '" role="alert">' +
+                            '<button type="button" aria-hidden="true" class="close" data-notify="dismiss"><i class="fa fa-times" aria-hidden="true"></i></button>' +
+                            '<span data-notify="icon"></span> ' +
+                            '<span data-notify="title">{1}</span> ' +
+                            '<span data-notify="message">{2}</span>' +
+                            '<div class="progress" data-notify="progressbar">' +
+                            '<div class="progress-bar progress-bar-{0}" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>' +
+                            '</div>' +
+                            '<a href="{3}" target="{4}" data-notify="url"></a>' +
+                            '</div>'
+                });
+            }
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.11';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ab4fa16d7591465c708d8f9/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<script>
+$('.innerbannerslidewrap').slick({
+     arrows: true,
+     nextArrow: '<i class="fa fa-angle-right right-arrow fa-2x"></i>',
+  prevArrow: '<i class="fa fa-angle-left left-arrow fa-2x"></i>',
+  autoplay: true,
+  autoplaySpeed: 10000,
+  infinite: true,
+});
+$(document).ready(function(){
+    $('.banner-div').show();
+});
+</script>
+<!--End of Tawk.to Script-->
+</body>
+
+</html>
