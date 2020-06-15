@@ -1,0 +1,141 @@
+<?php
+class Catcontroller extends CI_Controller
+{
+  function __construct() 
+  {
+    
+
+    parent::__construct();
+    $this->load->model('Catmodel');
+    $this->load->helper(array('form', 'url'));
+
+    $this->load->library('form_validation');
+    $this->load->database();
+  
+  
+  
+}
+
+    function displplay()
+     {
+        $this->form_validation->set_rules('categoryname', 'categoryname', 'required');
+
+        if ($this->form_validation->run() == FALSE)
+        {
+                $this->load->view('categoryform');
+        }
+        else
+        {
+                $this->load->view('categoryform');
+        }
+
+     }
+    function index()
+
+    {
+
+        
+        
+      $cat = $this->Catmodel->getcat();
+
+
+        $data =array(
+        'catagory'=>$cat 
+        );
+
+
+         $this->load->view('Categoryform',$data);
+        
+        
+    }
+	
+    function do_upload()
+    {
+          $cp=$this->input->post('categoryparent');
+          if(empty($cp))
+          {
+              $cp=null;
+          }
+
+            // $id=$this->input->post('id');
+    // if (!empty($_FILES['bannerimage']['name'])&& $_FILES['bannerimage']['error']==0)
+    //  {
+        $config['upload_path'] = './uploads/';
+        $config['allowed_types'] = '*';
+        $this->load->library('upload',$config);
+        // $this->upload->initialize($config);
+          if($this->upload->do_upload('image'))
+          {
+
+            $data =  $this->upload->data();
+            $data=array(
+ 
+    // 'categoryname' => $this->input->post('categoryname'),
+                'categoryparent' =>$cp,
+                'bannerimage' =>$data['file_name'],
+                'imagelocation' =>$data['full_path'],
+                'priority' => $this->input->post('priority'),
+             'categorydescription' => $this->input->post('categorydescription'),
+                      );
+
+           if($this->Catmodel->dinsert($data))
+           {
+   
+               redirect(base_url('Catcontroller'));
+     // $this->load->view('Categoryform');
+            }
+          
+   else
+  {
+
+    echo"error";exit;
+  }
+}      
+ 
+ else
+    {
+           echo $this->upload->display_errors();
+           exit;
+    }
+        
+
+    
+}
+
+function tdisplay()
+{
+  //$this->load->view('productcategory');
+  $result['data']=$this->Catmodel->catdis();
+  //print_r($result);exit;
+  $this->load->view('productcategory',$result);
+}
+public function deletedata()
+	{
+	$id=$this->input->get('id');
+	$this->Catmodel->deleterecords($id);
+	redirect(base_url("Catcontroller/tdisplay"));
+	}
+
+  public function updatedata()
+	{
+	$id=$this->input->get('id');
+	$result['data']=$this->catmodel->displayrecordsById($id);
+	$this->load->view('productcategory',$result);	
+	
+		if($this->input->post('cedit'))
+		{
+		$n=$this->input->post('categoryname');
+		$e=$this->input->post('categoryparent');
+		$m=$this->input->post('bannerimage');
+		$this->catmodel->updaterecords($n,$e,$m,$id);
+     redirect("cedit/tdisplay");
+    // redirect(base_url("cedit/tdisplay"));
+		}
+	}
+
+}
+
+
+
+
+?>
